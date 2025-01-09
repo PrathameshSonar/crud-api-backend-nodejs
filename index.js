@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const Product = require('./model/product.model');
-const productRoutes = require('./routes/product.routes')
+const Product = require('./product.model');
+const productRoutes = require('./product.routes')
 const app = express();
 
 //middleware
